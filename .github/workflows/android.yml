@@ -19,7 +19,7 @@ jobs:
         java-version: 17
 
     - name: Give permission
-      run: chmod +x gradle
+      run: chmod +x build.gradle
 
     - name: Build APK
       run: ./build.gradle assembleDebug
